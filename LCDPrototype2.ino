@@ -1,6 +1,6 @@
 #include <LiquidCrystal.h> 
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2); // Creates an LCD object. Parameters: (rs, enable, d4, d5, d6, d7)
-// Connect K = -ve/gnd ; A = +ve ; Potentiometer middle lane = Vo ; Vss = -ve ; RW = gnd ; Vdd = +veconst int trigPin = 9;
+// Connect K = -ve/gnd ; A = +ve ; Potentiometer(10K) middle lane = Vo ; Vss = -ve ; RW = gnd ; Vdd = +veconst int trigPin = 9;
 const int echoPin = 10;
 long duration;
 int distanceCm, distanceInch;
